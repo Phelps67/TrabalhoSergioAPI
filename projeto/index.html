@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="MainIcon.png">
+    <link rel="stylesheet" href="Main.CSS">
+    <title>Data Collector</title>
+</head>
+<body>
+
+    <!-- Banner Superior -->
+    <header id="Banner">
+        <h1>User Register</h1>
+    </header>
+
+    <!-- Formulary Area -->
+    <main class="container">
+        <form id="FormCliente">
+            <h2>Novo Registro</h2>
+            
+            <div class="input-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" placeholder="Digite o nome do usuário">
+            </div>
+            <div class="input-group">
+                <label for="Gmail">Gmail</label>
+                <input type="gmail" id="nome" placeholder="Digite Seu Gmail">
+            </div>
+            <div class="input-group">
+                <label for="Telefone">Telefone</label>
+                <input type="gmail" id="Telefone" placeholder="Digite Seu Numero" maxlength="11">
+            </div>
+            <div class="input-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" placeholder="Digite seu endereço Atual">
+            </div>
+            <div class="input-group">Data de Nascimento
+                <label for="DataNSC"></label>
+                <input type="date"id="DataNSC">
+            </div>
+
+            <button type="submit" class="btn-submit">Cadastrar</button>
+            <br><br>
+            <button id="ListarClientes" class="btn-Show">Listar Clientes</button>
+        </form>
+    </main>
+
+        <footer id="FooterBase">
+        <p>&copy; Data Collector todos os direitos reservados.</p>
+        <img src="MainIcon.png" alt="Data Collector Icon" class="footer-icon">
+    </footer>
+
+</body>
+</html>
